@@ -31,7 +31,7 @@ void max_heapify(int *array, size_t size, size_t base, size_t root)
 
 	left = 2 * root + 1;
 	right = 2 * root + 2;
-	large = max;
+	max = max;
 
 	if (left < base && array[left] > array[max])
 		max = left;
